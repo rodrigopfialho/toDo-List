@@ -1,0 +1,130 @@
+.main {
+    margin: 0 1rem;
+    
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: -30px;
+}
+
+.content form {
+    display: flex;
+}
+
+.content button { 
+    width: 5.65rem;
+    height: 3.25rem;
+    background: var(--blue-dark);
+    color: var(--gray-100);
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 0.875rem;
+    font-weight: bold;
+    padding: 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    transition: background 0.2s;
+}
+
+.content button:hover {
+    background: var(--blue);
+}
+
+.input {
+    display: flex;
+    width: 39.875rem;
+    height: 54px;
+    border-radius: 10px;
+    padding-left: 25px;
+    margin-right: 8px;
+    color: var(--gray-100);
+    background: var(--gray-500);
+    font-family: 'Inter';
+    letter-spacing: 1px;
+    outline: none;
+    
+    border: 0;
+}
+
+.content input:focus { 
+    outline: none !important;
+    border: 1px solid var(--purple-dark);
+}
+
+ .icon {
+    padding-left: 8px;
+}
+
+article {
+    width: 100%;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+article .taferas {
+    width: 45.6rem;
+    margin-top: 3rem;
+    
+}
+
+article .counterItem {
+    display: flex;
+    justify-content: space-between;
+
+   
+}
+
+article .counterItem .criadas {
+    color: var(--blue);
+    font-size: 0.875rem;
+    font-weight: bold;
+}
+
+article .counterItem .concluidas {
+    color: var( --purple);
+    font-size: 0.875rem;
+    font-weight: bold;
+}
+
+article .counterItem strong {
+    color: var(--gray-200);
+    background: var(--gray-400);
+    padding: 1px 8px;
+    border-radius: 999px;
+    margin-left: 8px;
+}
+
+article .info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 24px;
+    border-top: 1px solid var(--gray-400);
+    padding-top: 4rem;
+}
+
+article .info img {
+    width: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+article .info p {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--gray-300);
+}
+
+article .info p:last-child {
+    
+    font-weight: normal;
+}

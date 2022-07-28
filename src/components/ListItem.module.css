@@ -1,0 +1,43 @@
+.content {
+    display: flex;
+    align-items: center;
+    width: 46rem;
+    height: 4.5rem;
+    background: var(--gray-500);
+    border-radius: 8px;
+    padding: 0 1rem;
+    margin: 0 1rem 0 0;
+    margin-top: 2.68rem;
+}
+
+.content + .content {
+    margin-top: 0.75rem;
+}
+
+.icon {
+    color: var(--gray-300);
+    float: right;
+}
+
+.list {
+    width: 100%;
+    display: flex;
+    margin: 0 1rem;
+}
+
+.list p {
+    width: 100%;
+    padding: 0 1rem;
+    color: var(--gray-100);
+    font-size: 14px;
+    
+}
+
+.list button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+input:checked{
+    background-color: var(--purple-dark);
+  }
