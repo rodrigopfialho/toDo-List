@@ -1,13 +1,41 @@
 .content {
     display: flex;
-    align-items: center;
-    width: 46rem;
+    /* width: 46rem; */
     height: 4.5rem;
     background: var(--gray-500);
     border-radius: 8px;
     padding: 0 1rem;
     margin: 0 1rem 0 0;
     margin-top: 2.68rem;
+    
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.checkboxAround {
+    width: 17.45px;
+    height: 17.45px;
+    background-color: transparent;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 2px solid var(--blue);
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.checkboxAround:hover {
+    border: 2px solid var(--blue-dark);
+
+    background: rgba(30,111,159,0.02);
+}
+
+.checkboxAround:checked {
+    border: 0;
+    background-color: var(--purple-dark);
+    
 }
 
 .content + .content {
@@ -19,16 +47,26 @@
     float: right;
 }
 
+.icon:hover {
+    color: var(--danger);
+
+    transition: 0.3s;
+}
+
 .list {
     width: 100%;
     display: flex;
+    justify-content: center;
+
     margin: 0 1rem;
 }
 
 .list p {
     width: 100%;
+    display: flex;
+    letter-spacing: 1px;
     padding: 0 1rem;
-    color: var(--gray-100);
+    /* color: var(--gray-100); */
     font-size: 14px;
     
 }
@@ -37,7 +75,27 @@
     background: transparent;
     border: none;
     cursor: pointer;
+    
 }
+
 input:checked{
     background-color: var(--purple-dark);
+  }
+
+  .taskTitleCheck {
+    line-height: 1.4;
+    font-size: 0.875rem;
+    font-weight: 400;
+    margin: 0 0.5rem;
+    color: var(--gray-300);
+    text-decoration: line-through;
+    
+  }
+  
+  .taskTitleNoCheck {
+    line-height: 1.4;
+    font-size: 0.875rem;
+    font-weight: 400;
+    margin: 0 0.5rem;
+    color: var(--gray-100);
   }
