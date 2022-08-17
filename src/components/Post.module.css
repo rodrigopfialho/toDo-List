@@ -78,6 +78,7 @@ article .taferas {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-bottom: 1.6rem;
 }
 
 article .counterItem {

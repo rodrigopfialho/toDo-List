@@ -35,10 +35,10 @@ export function Post() {
 
     function deleteItemList(onDeleteItemList: string) {
         const deleteItem = listItem.filter(item => {
+            item.isCompleted === true && item.id === onDeleteItemList && setTasksCompleteds(tasksCompleteds - 1)
             return item.id !== onDeleteItemList
         })
         setTasksTotal(tasksTotal - 1)
-        setTasksCompleteds(tasksCompleteds - 1 )
         setListItem(deleteItem)
         
     }

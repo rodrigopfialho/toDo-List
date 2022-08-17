@@ -11,6 +11,7 @@
     width: 100%;
     align-items: center;
     justify-content: center;
+    /* margin-bottom: 1rem; */
 }
 
 .checkboxAround {
@@ -60,6 +61,7 @@
 
     margin: 0 1rem;
 }
+
 
 .list p {
     width: 100%;
